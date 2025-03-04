@@ -5,6 +5,7 @@ import './Contact.css';
 
 function Contact() {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [formStatus, setFormStatus] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -13,9 +14,19 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Form validation
+    if (!formData.name || !formData.email || !formData.message) {
+      setFormStatus("Please fill in all fields.");
+      return;
+    }
+
     console.log(formData);
-    // Itt küldheted el az űrlapot e-mailben vagy adatbázisba, ha szükséges
     alert("Message sent!");
+
+    // Clear form and reset status
+    setFormData({ name: "", email: "", message: "" });
+    setFormStatus("Message sent successfully!");
   };
 
   return (
@@ -47,6 +58,7 @@ function Contact() {
         />
         <button type="submit" className="submit-button">Send Message</button>
       </form>
+      {formStatus && <p className="form-status">{formStatus}</p>}
     </div>
   );
 }

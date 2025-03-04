@@ -1,0 +1,47 @@
+/* Contact form styles */
+.contact {
+  text-align: center;
+  padding: 2rem;
+}
+
+.input-field {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.8rem;
+  width: 300px;
+  font-size: 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #1f2937; /* Háttér szín sötét */
+  color: white; /* Fehér szín a szöveghez */
+}
+
+.submit-button {
+  background-color: #38bdf8;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #06b6d4;
+}
+
+/* Form status message styles */
+.form-status {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #38bdf8;
+  margin-top: 1rem;
+}
+
+/* Page header styles */
+.page-header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #38bdf8;
+  margin-bottom: 1.5rem;
+}

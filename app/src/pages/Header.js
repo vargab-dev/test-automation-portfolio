@@ -1,5 +1,4 @@
 // src/components/Header.js
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
@@ -14,7 +13,7 @@ function Header() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="#contact-form">Contact</Link></li> {/* Contact menüpont hozzáadása */}
+            <li><Link to="/contact">Contact</Link></li> {/* Helyes navigáció a /contact oldalra */}
           </ul>
         </nav>
         <div className="social-links">
