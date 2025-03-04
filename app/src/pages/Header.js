@@ -13,7 +13,8 @@ function Header() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/contact">Contact</Link></li> {/* Helyes navigáció a /contact oldalra */}
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/test">Test</Link></li>
           </ul>
         </nav>
         <div className="social-links">

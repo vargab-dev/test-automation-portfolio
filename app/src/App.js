@@ -4,7 +4,8 @@ import './App.css';
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
-import Contact from "./pages/Contact"; // Importáljuk a Contact komponenst
+import Contact from "./pages/Contact";
+import Test from "./pages/Test";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/projects">Projects</Link></li>
                 <li><Link to="/about">About</Link></li>
-                <li><Link to="/contact">Contact</Link></li> {/* Link hozzáadása a Contact oldalhoz */}
+                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/test">Test</Link></li>
+
               </ul>
             </nav>
           </div>
@@ -26,10 +29,11 @@ function App() {
 
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} /> {/* Az útvonal hozzáadása a Contact oldalhoz */}
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/test" element={<Test />} /> 
           </Routes>
         </main>
       </div>
