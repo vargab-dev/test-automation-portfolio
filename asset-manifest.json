@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/test-automation-portfolio/static/css/main.5e71eb50.css",
-    "main.js": "/test-automation-portfolio/static/js/main.5dc42374.js",
+    "main.css": "/test-automation-portfolio/static/css/main.f0070c4b.css",
+    "main.js": "/test-automation-portfolio/static/js/main.a2e57497.js",
     "static/js/453.a6a97343.chunk.js": "/test-automation-portfolio/static/js/453.a6a97343.chunk.js",
     "index.html": "/test-automation-portfolio/index.html",
-    "main.5e71eb50.css.map": "/test-automation-portfolio/static/css/main.5e71eb50.css.map",
-    "main.5dc42374.js.map": "/test-automation-portfolio/static/js/main.5dc42374.js.map",
+    "main.f0070c4b.css.map": "/test-automation-portfolio/static/css/main.f0070c4b.css.map",
+    "main.a2e57497.js.map": "/test-automation-portfolio/static/js/main.a2e57497.js.map",
     "453.a6a97343.chunk.js.map": "/test-automation-portfolio/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e71eb50.css",
-    "static/js/main.5dc42374.js"
+    "static/css/main.f0070c4b.css",
+    "static/js/main.a2e57497.js"
   ]
 }
